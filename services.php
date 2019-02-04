@@ -77,7 +77,8 @@
         <div class="col-md-4 ml-auto position-relative">
           <div class="section-subtitle">Services</div>
           <div class="section-title">Development</div>
-          <p class="text">JS PHP WordPress HTML CSS</p>
+          <p class="text">In a world where technology and Internet is increasingly taking power, having a Websitehas become a kind of imperative in the business world. Website is an important marketing tool no maer what type of business you have. It seems like the saying is true: "If you are not on the Internet it is like you don´t even exist"</p>
+          <p class="text">**It applies on your business too.</p>
         </div>
       </div>
     </div>
@@ -163,7 +164,7 @@
         <div class="col-md-4 ml-auto position-relative">
           <div class="section-subtitle">Services</div>
           <div class="section-title">Customer Support</div>
-          <p class="text">Young enthusiastic team that wants to 24/7 h support. Kindness and dedication. Your users will get the answers you want them to get. Many consumers will give up your service just because there was no one to ask if something wasn´t clear or if no one answers their question on time.</p>
+          <p class="text">Young enthusiastic team that wants to help your customers. We offer 24/7 h support. Kindness and dedication. Your users will get the answers you want them to get. Many consumers will give up your service just because there was no one to ask if something wasn´t clear or if no one answers their question on time.</p>
         </div>
         <div class="col-md-6 services-image-box  services-bg text-center">
         <img src="images/icons/design-graph.svg" width="100%" />

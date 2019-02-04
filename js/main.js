@@ -46,13 +46,6 @@ jQuery(document).ready(function () {
     }
   });
 
-  if (window.innerWidth < 1024) {
-    jQuery('.flip-container').focus(function () {
-      jQuery('.flip-container').removeClass('hover');
-      jQuery(this).addClass('hover');
-    });
-  }
-
   // end on document ready
 });
 

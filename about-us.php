@@ -55,6 +55,7 @@
           <div class="section-title">Jungo</div>
           <p class="text">"Jungo believes that happy team is a healthy and productive team".</p> 
           <p class="text">We strive to create unique solutions that everyone will be satisfied with, users (the most important part of the chain), you, the client, us, the creators. </p>
+          <p class="text">The best thing about 3D - development, design, digital is that you can create the "impossible".</p>
           <p class="text">Believe us. Your success is our success.</p>
         </div>
       </div>
@@ -105,7 +106,7 @@
                 <img src="images/team/stevan-front.jpg" />
               </div>
               <div class="back">
-                <img src="images/team/stevan-back.png" />
+                <img src="images/team/stevan-back.jpg" />
               </div>
             </div>
           </div>
@@ -146,7 +147,6 @@
             <br /><br />
             Curabitur lacinia, ex et elementum ultricies, sem enim dapibus diam, quis
             tempus</p>
-          <a href="#" class="outline-btn">Our Work</a>
         </div>
       </div>
     </div>
@@ -179,7 +179,7 @@
         <img src="images/clients/hasso.svg" />
       </div>
       <div class="clients-column">
-        <span class="itd">...</span>
+        <span class="itd" style="margin: 0 auto;">...</span>
       </div>
     </div>
   </section>
