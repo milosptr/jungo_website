@@ -52,7 +52,7 @@
           <div class="section-title">OUTSOURCING</div>
           <p class="text-title">What is Outsourcing?</p>
           <p class="text">Outsourcing is the process of relocating your office jobs to countries with lower labour costs but equal expertise, countries like Serbia. This envolves setting up a remote team that will take over some if not most of your job functions so you can focus on your core business.</p>
-          
+
           <p class="text-title">Why Serbia?</p>
           <p class="text">By hiring people in Serbia you will get highly educated professionals ready to fulfil all your company needs. Life standard in Serbia will provide you with great cost savings but on the other side, satisfied employees. Which is automatically, win-win situation.</p>
 
@@ -60,8 +60,8 @@
           <p class="text">Because we provide all services under one roof. Everything that a single company needs in this fast time of Internet expansion, we can create. In addition, we will reduce your costs, which is an important segment in every company don´t you agree?</p>
         </div>
         <div class="col-md-6 services-image-box text-center">
-          <img src="images/icons/services-graph.svg" width="95%" />
-          <img src="images/services/development.png" class="services-image" width="400" />
+          <img src="images/icons/design-graph.svg" width="95%" />
+          <img src="images/services/outsourcing.png" class="services-image" width="400" />
         </div>
       </div>
     </div>
@@ -77,8 +77,7 @@
         <div class="col-md-4 ml-auto position-relative">
           <div class="section-subtitle">Services</div>
           <div class="section-title">Development</div>
-          <p class="text">In a world where technology and Internet is increasingly taking power, having a Websitehas become a kind of imperative in the business world. Website is an important marketing tool no maer what type of business you have. It seems like the saying is true: "If you are not on the Internet it is like you don´t even exist"</p>
-          <p class="text">**It applies on your business too.</p>
+          <p class="text">JS PHP WordPress HTML CSS</p>
         </div>
       </div>
     </div>
@@ -91,10 +90,10 @@
           <div class="section-subtitle">Services</div>
           <div class="section-title">Design</div>
           <p class="text-title">Why is design important?</p>
-          <p class="text">It is all about the design. Your brand does NOT exist without a good (or bad) design. It is your choice which one will it be and if it will work for.. or against you. 
-          <br />*First impression is crucial 
-          <br />*Design talks to it´s targeted audience 
-          <br />*Being inovative 
+          <p class="text">It is all about the design. Your brand does NOT exist without a good (or bad) design. It is your choice which one will it be and if it will work for.. or against you.
+          <br />*First impression is crucial
+          <br />*Design talks to it´s targeted audience
+          <br />*Being inovative
           <br />*Choosing right colors</p>
           <p class="text-title">What do we offer?</p>
             <div class="row">
@@ -110,7 +109,7 @@
                     <li>Video Production</li>
                     <li>Motion Graphics</li>
                   </ul>
-              </div>  
+              </div>
             </div>
         </div>
         <div class="col-md-6 services-image-box text-center">
@@ -121,7 +120,7 @@
     </div>
   </section>
 
-  <section id="design" class="services-section">
+  <section id="digital-marketing" class="services-section">
     <div class="container">
       <div class="row align-items-center">
       <div class="col-md-4 services-image-box  position-relative text-center">
@@ -151,24 +150,24 @@
                     <li>Analytics</li>
                     <li>Email campaigns</li>
                   </ul>
-              </div>  
+              </div>
             </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="marketing" class="services-section">
+  <section id="customer-support" class="services-section">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-4 ml-auto position-relative">
           <div class="section-subtitle">Services</div>
           <div class="section-title">Customer Support</div>
-          <p class="text">Young enthusiastic team that wants to help your customers. We offer 24/7 h support. Kindness and dedication. Your users will get the answers you want them to get. Many consumers will give up your service just because there was no one to ask if something wasn´t clear or if no one answers their question on time.</p>
+          <p class="text">Young enthusiastic team that wants to 24/7 h support. Kindness and dedication. Your users will get the answers you want them to get. Many consumers will give up your service just because there was no one to ask if something wasn´t clear or if no one answers their question on time.</p>
         </div>
         <div class="col-md-6 services-image-box  services-bg text-center">
         <img src="images/icons/design-graph.svg" width="100%" />
-          <img src="images/services/design.png" class="services-image" width="550" />
+          <img src="images/services/customer-support.png" class="services-image" width="550" />
         </div>
       </div>
     </div>
