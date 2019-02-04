@@ -20,10 +20,10 @@
   .services-section:nth-child(even) {
     background-position: 800px center;
   }
-
+  
   .services-section:nth-child(odd) {
     background-position: -800px center;
-  }
+  }  
 
   #development.services-section .services-image {
     top: 30%;
@@ -174,37 +174,7 @@
     max-width: 100%;
     margin-bottom: 50px;
   }
-/* Services */
-
-  #development.services-section .services-image{
-    position: absolute;
-    width: 50%;
-    top: 25%;
-    left: auto;
-    right: 32%;
-  }
-  #design.services-section .services-image{
-    position: absolute;
-    width: 65%;
-    height: auto;
-    top: 35%;
-    left: 15%;
-  }
-  #digital-marketing.services-section .services-image{
-    position: absolute;
-    width:50%;
-    top: 20%;
-    left: auto;
-    right: 22%;
-  }
-  #customer-support .services-image{
-    position: absolute;
-    width: 65%;
-    top: 35%;
-    left: 15%;
-  }
 }
-
 
 
 @media (max-width: 450px){
@@ -301,7 +271,7 @@
     flex: 0 0 100%;
     max-width: 100%;
   }
-
+  
   #our-team .row .col-md-3 {
     margin-top: 50px;
   }
@@ -348,9 +318,5 @@
 
   .services-section .services-image {
     width: 220px;
-  }
-  #outsourcing.services-section .services-image{
-    width: 60%;
-    height: auto;
   }
 }
