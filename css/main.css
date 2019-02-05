@@ -60,6 +60,14 @@ dl, ol, ul {
   text-transform: uppercase;
   color: #fff;
   transform: rotate(90deg);
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+  cursor: pointer;
 }
 .scroll-element:after {
   content: "";
@@ -95,7 +103,7 @@ dl, ol, ul {
   color: #333;
 }
 .text-title {
-  font-family: 'Popins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 24px;
   font-weight: 900;
   color: #4D4D4D;
@@ -103,13 +111,67 @@ dl, ol, ul {
   margin-bottom: 30px;
   margin-top: 30px;
 }
-.text,
-li {
-  font-family: 'Popins', sans-serif;
+.text, .services-section li {
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   color: #4D4D4D;
   line-height: 32px;
 }
+/* Preloader */
+#preloader {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #171717
+}
+
+#preloader .loading-image,
+#preloader .loading-image-fill {
+  position: absolute;
+  top: calc(50% - 22px);
+  left: calc(50% - 100px);
+  width: 200px;
+  height: 56px;
+}
+
+#preloader .loading-image {
+  background: url('../images/preloader.svg') no-repeat;
+  background-size: 200px 56px;
+  background-position: center;
+  width: 200px;
+  height: 56px;
+}
+
+#preloader .loading-image-fill {
+  background: url('../images/preloader-filled.svg') no-repeat;
+  background-size: 200px 56px;
+  background-position: left;
+  width: 0px;
+  height: 56px;
+}
+
+@-webkit-keyframes fillPreloader {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 200px;
+  }
+}
+
+@keyframes fillPreloader {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 200px;
+  }
+}
+
 /* Navigation */
 #navigation {
   position: fixed;
@@ -561,11 +623,72 @@ footer a {
 #homepage-hero .col-md-4:hover {
   transform: scale(1.2);
 }
+.homepage .left-line {
+  position: absolute;
+  left: 8.5%;
+  top: calc(50% - 30px);
+}
+.homepage .right-line {
+  position: absolute;
+  right: 8.5%;
+  top: calc(50% - 30px);
+}
+.homepage .left-line .first-line,
+.homepage .right-line .first-line {
+  height: 160px;
+  width: 1px;
+  background: #eeeeee88;
+  position: absolute;
+  left: 25px;
+  bottom: 70px;
+}
+.homepage .left-line .text,
+.homepage .right-line .text {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.homepage .right-line .text {
+  -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.homepage .left-line .second-line,
+.homepage .right-line .second-line {
+  height: 160px;
+    width: 1px;
+    background: #eeeeee88;
+    position: absolute;
+    left: 25px;
+    top: 70px;
+}
+.homepage .right-line .first-line,
+.homepage .right-line .second-line {
+  left: 15px;
+}
 .homepage footer {
   position: absolute;
   bottom: 70px;
   left: 0;
   width: 100%;
+}
+
+.homepage footer .container {
+  max-width: calc(100% - 17%)!important;
+}
+
+.homepage footer a {
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.homepage footer a:hover {
+  color: #666;
+  text-decoration: none;
 }
 /* Grafika */
 .homepage-graph {
@@ -672,7 +795,7 @@ footer a {
   background-size: calc(100% + 50px);
 }
 #about-us {
-  padding-top: 200px;
+  padding-bottom: 150px;
 }
 #about-us .mountain-bg {
   background:url('../images/mountain-image@2x.png') no-repeat;
@@ -931,13 +1054,13 @@ footer a {
   padding: 140px 0;
 }
 
-.services-section:nth-child(even) {
+.services-section:nth-child(odd) {
   background: #F5F5F5 url('../images/right-bg-rect.svg') no-repeat;
   background-position: right;
   background-size: 40%;
 }
 
-.services-section:nth-child(odd) {
+.services-section:nth-child(even) {
   background: url('../images/left-bg-rect.svg') no-repeat;
   background-position: left;
   background-size: 40%;
@@ -946,8 +1069,35 @@ footer a {
 
 .services-section .services-image {
   position: absolute;
+  width: 60%;
   top: 35%;
   left: 20%;
+}
+
+#development .services-image{
+  position: absolute;
+  width: 53%;
+  top: 25%;
+  left: auto;
+  right: 32%;
+}
+#design .services-image{
+  position: absolute;
+  top: 35%;
+  left: 15%;
+}
+#digital-marketing .services-image{
+  position: absolute;
+  width:55%;
+  top: 20%;
+  left: auto;
+  right: 22%;
+}
+#customer-support .services-image{
+  position: absolute;
+  width: 65%;
+  top: 35%;
+  left: 15%;
 }
 
 .services-section ul {

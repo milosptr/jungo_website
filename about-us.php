@@ -141,12 +141,7 @@
       </div>
       <div class="row">
         <div class="col-md-6 offset-md-2">
-          <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam maximus quam at turpis
-            mattis, a rutrum massa volutpat. Aliquam turpis urna, hendrerit sit amet eleifend vel, convallis in leo.
-            Aliquam erat volutpat.
-            <br /><br />
-            Curabitur lacinia, ex et elementum ultricies, sem enim dapibus diam, quis
-            tempus</p>
+          <p class="text">Our clients are our family. We communicate with them on a daily basis and most of the time we feel like one team. Joined forces, ideas and time take us to best solutions. Good organization and clear ideas are the key to good colaboration.</p>
         </div>
       </div>
     </div>
@@ -226,9 +221,9 @@
             <div class="contact-section">        
              <p class="contact-title">Connect</p>
               <ul class="social">
-                <li><a href="/"><img src="images/icons/facebook.svg" width="12"></a></li>
-                <li><a href="/"><img src="images/icons/instagram.svg" width="24"></a></li>
-                <li><a href="/"><img src="images/icons/linkedin.svg" width="24"></a></li>
+                <li><a href="https://www.facebook.com/jungodigital/" target="_blank"><img src="images/icons/facebook.svg" width="12"></a></li>
+                <li><a href="https://www.instagram.com/jungo_digital_solutions/" target="_blank"><img src="images/icons/instagram.svg" width="24"></a></li>
+                <li><a href="https://www.linkedin.com/company/jungo-digital-solution/" target="_blank"><img src="images/icons/linkedin.svg" width="24"></a></li>
               </ul>
             </div>
           </div>

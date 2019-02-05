@@ -20,7 +20,12 @@
   <?php include "include/header.php" ?>
   
   <section id="homepage-hero">
-    <div class="hero-image"></div>  
+    <div class="hero-image"></div>
+    <div class="left-line">
+      <div class="first-line"></div>
+      <div class="text">JUNGO</div>
+      <div class="second-line"></div>
+    </div>
     <div class="container">
     <div class="homepage-graph">
       <div class="graph-wrapper">
@@ -45,6 +50,11 @@
           <a href="/" class="homepage-link">Portfolio</a>
         </div>
       </div>
+      <div class="right-line">
+      <div class="first-line"></div>
+      <div class="text">2019</div>
+      <div class="second-line"></div>
+    </div>
     </div>
   </section>
 

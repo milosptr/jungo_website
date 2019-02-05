@@ -3,9 +3,9 @@
     <div class="row justify-content-between align-items-center">
       <div class="col-md-4">
         <ul class="social">
-          <li><a href="/"><img src="images/icons/facebook.svg" width="12" /></a></li>
-          <li><a href="/"><img src="images/icons/instagram.svg" width="24" /></a></li>
-          <li><a href="/"><img src="images/icons/linkedin.svg" width="24" /></a></li>
+        <li><a href="https://www.facebook.com/jungodigital/" target="_blank"><img src="images/icons/facebook.svg" width="12" /></a></li>
+          <li><a href="https://www.instagram.com/jungo_digital_solutions/" target="_blank"><img src="images/icons/instagram.svg" width="24" /></a></li>
+          <li><a href="https://www.linkedin.com/company/jungo-digital-solution/" target="_blank"><img src="images/icons/linkedin.svg" width="24" /></a></li>
         </ul>
       </div>
 

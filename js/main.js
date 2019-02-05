@@ -1,3 +1,15 @@
+var perfData = window.performance.timing,
+  EstimatedTime = -(perfData.loadEventEnd - perfData.navigationStart),
+  time = parseInt((EstimatedTime / 1000) % 60) * 100;
+
+
+window.onload = function (e) {
+  jQuery('.loading-image-fill').animate({ width: '100%' }, time);
+  setTimeout(function () {
+    jQuery('#preloader').fadeOut();
+  }, time / 3);
+};
+
 jQuery(document).ready(function () {
   var sloMovementStrength = 15;
   var sloHeight = sloMovementStrength / jQuery(window).height();
@@ -17,7 +29,6 @@ jQuery(document).ready(function () {
     parallaxIt(e, ".x-rect", 40);
     parallaxIt(e, ".iks", 10);
   });
-
 
   // Navigation
   jQuery(".hamburger-button").click(function (e) {
@@ -44,6 +55,14 @@ jQuery(document).ready(function () {
     } else {
       jQuery("#navigation").removeClass("sticky");
     }
+  });
+
+  // Scroll down 
+  jQuery('.scroll-element').click(function () {
+    var scrollHeight = jQuery('.hero-image').height();
+    jQuery('html, body').animate({
+      scrollTop: scrollHeight
+    }, 1000);
   });
 
   // end on document ready
