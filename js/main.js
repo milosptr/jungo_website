@@ -50,7 +50,7 @@ jQuery(document).ready(function () {
   jQuery(window).scroll(function () {
     var scroll = jQuery(window).scrollTop();
 
-    if (scroll >= 500) {
+    if (scroll >= 50) {
       jQuery("#navigation").addClass("sticky");
     } else {
       jQuery("#navigation").removeClass("sticky");
@@ -64,6 +64,24 @@ jQuery(document).ready(function () {
       scrollTop: scrollHeight
     }, 1000);
   });
+
+
+  // Projects hover animation
+  jQuery('.portfolio-navigation li').hover(function () {
+    var maxwidth = 70;
+    var index = jQuery(this).index();
+    jQuery('.portfolio-navigation li').removeClassExcept('active');
+    projectNavigationAnimation(index);
+  });
+
+  jQuery('.portfolio-navigation li').mouseout(function () {
+    var index = jQuery('.portfolio-navigation li.active').index();
+    jQuery('.portfolio-navigation li').removeClassExcept('active');
+    projectNavigationAnimation(index);
+  });
+
+
+
 
   // end on document ready
 });
@@ -80,3 +98,74 @@ function parallaxIt(e, target, movement) {
   });
 }
 
+
+jQuery.fn.removeClassExcept = function (val) {
+  return this.each(function (index, el) {
+    var keep = val.split(" "),  // list we'd like to keep
+      reAdd = [],          // ones that should be re-added if found
+      $el = $(el);       // element we're working on
+
+    // look for which we re-add (based on them already existing)
+    for (var i = 0; i < keep.length; i++) {
+      if ($el.hasClass(keep[i])) reAdd.push(keep[i]);
+    }
+
+    // drop all, and only add those confirmed as existing
+    $el
+      .removeClass()               // remove existing classes
+      .addClass(reAdd.join(' '));  // re-add the confirmed ones
+  });
+};
+
+function projectNavigationAnimation(index) {
+  var maxwidth = 70;
+  switch (index) {
+    case 0:
+      jQuery('.portfolio-navigation li').eq(index).addClass('width-70');
+      for (let i = 1; i < 6; i++) {
+        maxwidth = maxwidth - 10;
+        jQuery('.portfolio-navigation li').eq(i).addClass('width-' + maxwidth + '');
+      }
+      break;
+    case 1:
+      jQuery('.portfolio-navigation li').eq(index - 1).addClass('width-60');
+      jQuery('.portfolio-navigation li').eq(index).addClass('width-70');
+      for (let i = 2; i < 6; i++) {
+        maxwidth = maxwidth - 10;
+        jQuery('.portfolio-navigation li').eq(i).addClass('width-' + maxwidth + '');
+      }
+      break;
+    case 2:
+      jQuery('.portfolio-navigation li').eq(index - 2).addClass('width-50');
+      jQuery('.portfolio-navigation li').eq(index - 1).addClass('width-60');
+      jQuery('.portfolio-navigation li').eq(index).addClass('width-70');
+      jQuery('.portfolio-navigation li').eq(index + 1).addClass('width-60');
+      jQuery('.portfolio-navigation li').eq(index + 2).addClass('width-50');
+      jQuery('.portfolio-navigation li').eq(index + 3).addClass('width-40');
+      break;
+    case 3:
+      jQuery('.portfolio-navigation li').eq(index - 3).addClass('width-40');
+      jQuery('.portfolio-navigation li').eq(index - 2).addClass('width-50');
+      jQuery('.portfolio-navigation li').eq(index - 1).addClass('width-60');
+      jQuery('.portfolio-navigation li').eq(index).addClass('width-70');
+      jQuery('.portfolio-navigation li').eq(index + 1).addClass('width-60');
+      jQuery('.portfolio-navigation li').eq(index + 2).addClass('width-50');
+      break;
+    case 4:
+      jQuery('.portfolio-navigation li').eq(index - 4).addClass('width-30');
+      jQuery('.portfolio-navigation li').eq(index - 3).addClass('width-40');
+      jQuery('.portfolio-navigation li').eq(index - 2).addClass('width-50');
+      jQuery('.portfolio-navigation li').eq(index - 1).addClass('width-60');
+      jQuery('.portfolio-navigation li').eq(index).addClass('width-70');
+      jQuery('.portfolio-navigation li').eq(index + 1).addClass('width-60');
+      break;
+    case 5:
+      jQuery('.portfolio-navigation li').eq(index - 5).addClass('width-20');
+      jQuery('.portfolio-navigation li').eq(index - 4).addClass('width-30');
+      jQuery('.portfolio-navigation li').eq(index - 3).addClass('width-40');
+      jQuery('.portfolio-navigation li').eq(index - 2).addClass('width-50');
+      jQuery('.portfolio-navigation li').eq(index - 1).addClass('width-60');
+      jQuery('.portfolio-navigation li').eq(index).addClass('width-70');
+      break;
+  }
+}

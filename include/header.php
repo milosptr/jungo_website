@@ -45,13 +45,16 @@
             <li><a href="/services.php#customer-support" class="nav-item">Customer Support</a></li>
           </ul>
         </li>
+        <li>
+          <a href="/projects.php" class="nav-item">Projects</a>  
+        </li>
       </ul>
       <ul class="social">
         <li><a href="https://www.facebook.com/jungodigital/" target="_blank"><img src="images/icons/facebook.svg" alt="" width="12" height="24"></a></li>
         <li><a href="https://www.instagram.com/jungo_digital_solutions/" target="_blank"><img src="images/icons/instagram.svg" alt="" width="24" height="24"></a></li>
         <li><a href="https://www.linkedin.com/company/jungo-digital-solution/" target="_blank"><img src="images/icons/linkedin.svg" alt="" width="24" height="24"></a></li>
       </ul>
-      <div class="copyright">© 2018 Jungo, all rights reserved.</div>
+      <div class="copyright">© 2019 Jungo, all rights reserved.</div>
     </div>
   </div>
 </section>

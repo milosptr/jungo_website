@@ -11,7 +11,7 @@
 
       <div class="col-md-4 text-right">
         <ul>
-          <li>© 2018 Jungo, all rights reserved.</li>
+          <li>© 2019 Jungo, all rights reserved.</li>
           <li><a href="/">Cookie Policy</a></li>
         </ul>
       </div>

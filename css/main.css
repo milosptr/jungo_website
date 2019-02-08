@@ -1,4 +1,13 @@
 /* Global */
+::-webkit-scrollbar {
+  width: 10px; /* remove scrollbar space */
+  background: #666666; 
+  }
+  /* optional: show position indicator in red */ 
+  ::-webkit-scrollbar-thumb {
+    background: #55EFC4;
+  }
+
 body * {
   outline: none!important;
   font-family: 'Montserrat', sans-serif;
@@ -16,7 +25,7 @@ dl, ol, ul {
 .outline-btn {
   display: inline-block;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
   color: #333333;
   padding: 20px 50px;
@@ -274,9 +283,9 @@ dl, ol, ul {
   transition-property: transform;
   transition-duration: 0.15s;
   transition-timing-function: ease;
-  -webkit-animation: animate--toggle 1s cubic-bezier(0.895, 0.3, 0.685, 0.22) -0.6s alternate infinite;
-  -o-animation: animate--toggle 1s cubic-bezier(0.895, 0.3, 0.685, 0.22) -0.6s alternate infinite;
-  animation: animate--toggle 1s cubic-bezier(0.895, 0.3, 0.685, 0.22) -0.6s alternate infinite;
+  -webkit-animation: animate--toggle 1.5s cubic-bezier(0.895, 0.3, 0.685, 0.22) -0.6s alternate infinite;
+  -o-animation: animate--toggle 1.5s cubic-bezier(0.895, 0.3, 0.685, 0.22) -0.6s alternate infinite;
+  animation: animate--toggle 1.5s cubic-bezier(0.895, 0.3, 0.685, 0.22) -0.6s alternate infinite;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
@@ -430,6 +439,16 @@ dl, ol, ul {
   right: -30%;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
+  overflow-y: scroll;
+}
+
+#hmaburger-menu *::-webkit-scrollbar {
+  width: 0px;  /* remove scrollbar space */
+  background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+#hmaburger-menu *::-webkit-scrollbar-thumb {
+  background: #FF0000;
 }
 
 #hamburger-menu.open .hamburger-sidebar {
@@ -625,7 +644,7 @@ footer a {
 }
 .homepage .left-line {
   position: absolute;
-  left: 8.5%;
+  left: calc(8.5% - 24px);
   top: calc(50% - 30px);
 }
 .homepage .right-line {
@@ -635,9 +654,9 @@ footer a {
 }
 .homepage .left-line .first-line,
 .homepage .right-line .first-line {
-  height: 160px;
+  height: calc(50vh - 230px);
   width: 1px;
-  background: #eeeeee88;
+  background: #fff;
   position: absolute;
   left: 25px;
   bottom: 70px;
@@ -659,9 +678,9 @@ footer a {
 
 .homepage .left-line .second-line,
 .homepage .right-line .second-line {
-  height: 160px;
+  height: calc(50vh - 230px);
     width: 1px;
-    background: #eeeeee88;
+    background: #fff;
     position: absolute;
     left: 25px;
     top: 70px;
@@ -679,6 +698,10 @@ footer a {
 
 .homepage footer .container {
   max-width: calc(100% - 17%)!important;
+}
+
+.homepage footer .col-md-4 {
+  padding-left: 0;
 }
 
 .homepage footer a {
@@ -907,7 +930,7 @@ footer a {
   width: 20%;
   margin-left: -1px;
   margin-top: -1px;
-  padding: 150px 0;
+  height: 20vw;
   border: 1px solid #E5E5E5;
   text-align: center;
 }
@@ -984,7 +1007,7 @@ footer a {
 
 .contact-form .outline-btn {
   margin-top: 0;
-  padding: 10px 50px;
+  padding: 10px 100px;
   background: #fff;
   cursor: pointer;
 }
@@ -999,7 +1022,8 @@ footer a {
 
 .contact-form .contact-title {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
+  text-transform: uppercase;
   margin-bottom: 22px;
 }
 
@@ -1113,8 +1137,12 @@ footer a {
 
 /* Portfolio */
 
+.projects-page {
+  background: #010101;
+}
+
 #portfolio-hero .hero-image {
-  background:url('../images/portfolio-hero.jpg') -25px -50px;
+  background: #010101 url('../images/portfolio-hero.jpg') -25px -50px;
   background-repeat: no-repeat;
   position:absolute;
   top:0;
@@ -1124,29 +1152,184 @@ footer a {
   background-size: calc(100% + 50px);
 }
 
-#portfolio .col-md-4 {
-  position: relative;
-  background:url('../images/portfolio-placeholder.jpg') no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 400px;
+#portfolio {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: calc(100% - 17%);
+  height: 100vh;
+  margin: 0 8.5%;
   color: #fff;
+}
+
+#portfolio .full-height {
+  height: 100vh;;
+}
+
+#portfolio .portfolio-navigation li {
+  position: relative;
+  width: 250px;
+  font-size:18px;
+  font-weight: 900;
+  margin-bottom: 30px;
+  list-style-type: none;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+#portfolio .portfolio-navigation li:before {
+  content: '';
+  position: absolute;
+  top: 13px;
+  left: -100px;
+  width: 20px;
+  height: 1px;
+  background: #fff;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
 
-#portfolio .col-md-4 .portfolio-title {
-  position: absolute;
-  left: 140px;
-  bottom: 40px;
-  font-size: 36px;
-  font-weight: 600;
+#portfolio .portfolio-navigation li:hover {
+  color: #55EFC4;
 }
 
-#portfolio .col-md-4:hover {
+#portfolio .portfolio-navigation li:hover:before {
+  width: 70px;
+}
+
+#portfolio .portfolio-navigation li:last-child {
+  margin-bottom: 0;
+}
+
+#portfolio .portfolio-navigation li.active {
   color: #55EFC4;
+}
+
+#portfolio .portfolio-navigation li.active:before {
+  width: 70px;
+}
+
+/* Projects Menu Animation */
+#portfolio .portfolio-navigation li.width-70:before {
+  width: 70px;
+}
+#portfolio .portfolio-navigation li.width-60:before {
+  width: 60px;
+}
+#portfolio .portfolio-navigation li.width-50:before {
+  width: 50px;
+}
+#portfolio .portfolio-navigation li.width-40:before {
+  width: 40px;
+}
+#portfolio .portfolio-navigation li.width-30:before {
+  width: 30px;
+}
+#portfolio .portfolio-navigation li.width-20:before {
+  width: 20px;
+}
+#portfolio .portfolio-navigation li.width-10:before {
+  width: 10px;
+}
+
+/* End of Projects Menu Animation */
+
+#portfolio .projects-box {
+  max-height: 650px;
+  padding-right: 50px;
+  overflow-y: scroll;
+}
+
+#portfolio .project-box {
+  position: relative;
+  background: rgba(51, 51, 51, 0.9);
+  max-width: 300px;
+  width: 300px;
+  height: 300px;
+  margin-left: calc(100% / 9);
+  margin-bottom: 50px;
   cursor: pointer;
 }
+
+#portfolio .project-box .project-title {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  font-size: 18px;
+  font-weight: 900;
+  width: 40%;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+#portfolio .project-box .project-image {
+  position: absolute;
+  top: calc(50% - 95px);
+  left: calc(50% - 95px);
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+#portfolio .project-box:hover .project-title {
+  color: #55EFC4;
+}
+
+#portfolio .project-box:hover .project-image {
+  transform: scale(1.1);
+}
+
+#portfolio .page-title {
+  font-size: 48px;
+  line-height: 58px;
+  margin-bottom: 20px;
+}
+
+#portfolio .projects-backBtn {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  margin-bottom: 115px;
+  cursor: pointer;
+}
+
+#portfolio .projects-backBtn span {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+#portfolio .apply-project {
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-top: 120px;
+  cursor: pointer;
+}
+
+#portfolio .apply-project:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 30%;
+  height: 1px;
+  background: #fff;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+#portfolio .apply-project:hover:after {
+  width: 100%;
+}
+
+#portfolio .back-to-top-large,
+#portfolio .back-to-top-small {
+  display: none;
+}
+
+/* Google Maps */
 
 #google-map {
   position: relative;

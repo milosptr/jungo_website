@@ -182,7 +182,7 @@
           <div class="section-subtitle">Services</div>
           <div class="section-title">Customer Support</div>
           <p class="text-title">What do we offer?</p>
-          <p class="text">Young enthusiastic team that wants to help your customers. We offer 24/7 h support. Kindness and dedication. Your users will get the answers you want them to get. Many consumers will give up your service just because there was no one to ask if something wasn´t clear or if no one answers their question on time.</p>
+          <p class="text">Young enthusiastic team that wants to help your customers. We offer 24/7 h support. Kindness and dedication. Your users will get the answers you want them to get. Many consumers will give up your service just because there was no one to answer if something wasn´t clear or if no one answers their question on time.</p>
         </div>
         <div class="col-md-6 services-image-box  services-bg text-center">
         <img src="images/icons/design-graph.svg" width="100%" />

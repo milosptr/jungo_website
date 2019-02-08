@@ -47,7 +47,7 @@
           <a href="/services.php" class="homepage-link">Services</a>
         </div>
         <div class="col-md-4 text-center">
-          <a href="/" class="homepage-link">Portfolio</a>
+          <a href="/projects.php" class="homepage-link">Projects</a>
         </div>
       </div>
       <div class="right-line">
