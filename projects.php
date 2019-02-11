@@ -28,7 +28,7 @@
       <div class="row full-height align-items-center">
         <div class="col-md-4 portfolio-navigation">
           <div class="page-title">Projects</div>
-          <div class="projects-backBtn"><span>❮</span>Our Services</div>
+          <div class="projects-backBtn" onclick="window.location.href='/about-us.php#our-clients'"><span>❮</span>Our Services</div>
           <ul>
             <li class="active">Websites</li>
             <li>Mobile Apps</li>
@@ -41,6 +41,34 @@
         </div>
         <div class="col-md-8 projects-box">
           <div class="row">
+            <div class="col-md-4 project-box lightgrey" data-project="websites">
+                <div class="project-title">MarWear Iceland</div>
+                <img src="images/projects/websites/marwear-iceland.svg" class="project-image" />
+            </div>
+            <div class="col-md-4 project-box lightgrey" data-project="websites">
+                <div class="project-title">MarWear Canada</div>
+                <img src="images/projects/websites/marwear-canada.svg" class="project-image" />
+            </div>
+            <div class="col-md-4 project-box darkgrey" data-project="websites">
+                <div class="project-title">Route1</div>
+                <img src="images/projects/websites/route1.svg" class="project-image" />
+            </div>
+            <div class="col-md-4 project-box lightblue" data-project="websites">
+                <div class="project-title">ICRS</div>
+                <img src="images/projects/websites/icrs.svg" class="project-image" />
+            </div>
+            <div class="col-md-4 project-box yellow" data-project="websites">
+                <div class="project-title">Auto</div>
+                <img src="images/projects/websites/auto.svg" class="project-image" />
+            </div>
+            <div class="col-md-4 project-box black" data-project="websites">
+                <div class="project-title">Jungo</div>
+                <img src="images/projects/websites/jungo.svg" class="project-image" />
+            </div>
+            <div class="col-md-4 project-box navyblue" data-project="mobile-apps">
+                <div class="project-title">CPS_</div>
+                <img src="images/projects/mobile-apps/cps.png" class="project-image" width="190" />
+            </div>
             <div class="col-md-4 project-box" data-project="branding">
                 <div class="project-title">Logo Design_</div>
                 <img src="images/projects/logo/route1.svg" class="project-image" />
@@ -64,6 +92,22 @@
             <div class="col-md-4 project-box align-items-center" data-project="branding">
                 <div class="project-title">Corporate Identity_</div>
                 <img src="images/projects/logo/jungo.svg" class="project-image" />
+            </div>
+            <div class="col-md-4 project-box white" data-project="print-design">
+                <div class="project-title">Mar Wear & Voot Beita Catalogue_</div>
+                <img src="images/projects/print-design/mw-voot-catalogue.svg" class="project-image" />
+            </div>
+            <div class="col-md-4 project-box navyblue" data-project="print-design">
+                <div class="project-title">Mar Wear Rollup Banner_</div>
+                <img src="images/projects/print-design/mw-rollup-banner.svg" class="project-image" />
+            </div>
+            <div class="col-md-4 project-box white" data-project="print-design">
+                <div class="project-title">Mar Wear Glove Brochure_</div>
+                <img src="images/projects/print-design/mw-glove-brochure.svg" class="project-image" />
+            </div>
+            <div class="col-md-4 project-box black" data-project="print-design">
+                <div class="project-title">Voot Beita & Hampidjan Theater Flyer</div>
+                <img src="images/projects/print-design/voot-theater-flyer.svg" class="project-image" />
             </div>
             <div class="back-to-top-large">BACK TO TOP <img src="images/icons/arrow-up.svg" alt=""></div>
           </div>

@@ -1,5 +1,5 @@
 jQuery(document).ready(function () {
-  // Default view of project
+  // Default view of projects
   jQuery('.project-box').fadeOut();
   jQuery('.project-box').each(function () {
     if (jQuery(this).attr('data-project') === 'websites') {

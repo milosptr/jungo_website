@@ -1171,7 +1171,7 @@ footer a {
   width: 250px;
   font-size:18px;
   font-weight: 900;
-  margin-bottom: 30px;
+  padding: 15px 0;
   list-style-type: none;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
@@ -1181,7 +1181,7 @@ footer a {
 #portfolio .portfolio-navigation li:before {
   content: '';
   position: absolute;
-  top: 13px;
+  top: 28px;
   left: -100px;
   width: 20px;
   height: 1px;
@@ -1252,13 +1252,39 @@ footer a {
   cursor: pointer;
 }
 
+#portfolio .project-box.white {
+  background: #fff;
+  color: #333;
+}
+
+#portfolio .project-box.lightgrey {
+  background: #C4CFD8;
+}
+
+#portfolio .project-box.darkgrey{
+  background: #3D4048;
+}
+
+#portfolio .project-box.lightblue {
+  background: #6DA9DC;
+}
+#portfolio .project-box.black {
+  background: #333333;
+}
+#portfolio .project-box.yellow {
+  background: #EFB703;
+}
+#portfolio .project-box.navyblue {
+  background: #1B273B;
+}
 #portfolio .project-box .project-title {
   position: absolute;
   left: 20px;
   bottom: 20px;
   font-size: 18px;
   font-weight: 900;
-  width: 40%;
+  line-height: 22px;
+  width: 50%;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
@@ -1269,10 +1295,6 @@ footer a {
   left: calc(50% - 95px);
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
-}
-
-#portfolio .project-box:hover .project-title {
-  color: #55EFC4;
 }
 
 #portfolio .project-box:hover .project-image {
@@ -1324,9 +1346,18 @@ footer a {
   width: 100%;
 }
 
-#portfolio .back-to-top-large,
-#portfolio .back-to-top-small {
+#portfolio .back-to-top-large {
   display: none;
+}
+
+.projects-page .back-to-top-small {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px ;
+  width: 40px;
+  height: 40px;
+  z-index: 9999;
 }
 
 /* Google Maps */
@@ -1342,4 +1373,13 @@ footer a {
   top: 0; 
   left: 0; 
   z-index: 0; /* Set z-index to 0 as it will be on a layer below the contact form */
+}
+
+
+/* Projects */
+
+.single-project .site-logo img,
+.hamburger-title {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
 }

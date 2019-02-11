@@ -183,19 +183,19 @@
     <div class="contact-form">
       <div class="row">
         <div class="col-md-7">
-            <form action="#">
+            <form action="/php/mail.php">
               <div class="form-title">GET IN TOUCH</div>
               <div class="form-group">
                 <input type="email" name="email" placeholder="Email" required />
               </div>
               <div class="form-group">
-                <input type="text" name="full-name" placeholder="Name" require />
+                <input type="text" name="full-name" placeholder="Name" required />
               </div>
               <div class="form-group">
                 <input type="text" name="company" placeholder="Company / Organization" />
               </div>
               <div class="form-group">
-                <textarea name="message" placeholder="Message" cols="10" rows="1" require></textarea>
+                <textarea name="message" placeholder="Message" cols="10" rows="1" required ></textarea>
               </div>
               <div class="form-group"><button class="outline-btn">SEND</button></div>
             </form>
