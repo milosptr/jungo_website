@@ -42,28 +42,40 @@
         <div class="col-md-8 projects-box">
           <div class="row">
             <div class="col-md-4 project-box lightgrey" data-project="websites">
+              <a href="/projects/marwear-iceland.php">
                 <div class="project-title">MarWear Iceland</div>
                 <img src="images/projects/websites/marwear-iceland.svg" class="project-image" />
+              </a>
             </div>
             <div class="col-md-4 project-box lightgrey" data-project="websites">
+              <a href="/projects/marwear-canada.php">
                 <div class="project-title">MarWear Canada</div>
                 <img src="images/projects/websites/marwear-canada.svg" class="project-image" />
+              </a>
             </div>
             <div class="col-md-4 project-box darkgrey" data-project="websites">
+              <a href="/projects/route1.php">
                 <div class="project-title">Route1</div>
                 <img src="images/projects/websites/route1.svg" class="project-image" />
+              </a>
             </div>
             <div class="col-md-4 project-box lightblue" data-project="websites">
+              <a href="/projects/icrs.php">
                 <div class="project-title">ICRS</div>
                 <img src="images/projects/websites/icrs.svg" class="project-image" />
+              </a>
             </div>
             <div class="col-md-4 project-box yellow" data-project="websites">
+              <a href="/projects/auto.php">
                 <div class="project-title">Auto</div>
                 <img src="images/projects/websites/auto.svg" class="project-image" />
+              </a>
             </div>
             <div class="col-md-4 project-box black" data-project="websites">
+              <a href="/projects/jungo.php">
                 <div class="project-title">Jungo</div>
                 <img src="images/projects/websites/jungo.svg" class="project-image" />
+              </a>
             </div>
             <div class="col-md-4 project-box navyblue" data-project="mobile-apps">
                 <div class="project-title">CPS_</div>

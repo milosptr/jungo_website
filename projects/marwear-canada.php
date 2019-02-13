@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Route1 Project - Jungo Digital Solutions</title>
+  <title>MarWear Canada Project - Jungo Digital Solutions</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="../images/jungo-favikon-04.png" type="image/x-icon">
 
@@ -23,15 +23,15 @@
 
   <?php include "../include/header.php" ?>
   <section id="project-banner">
-    <img src="../images/projects/websites/route1/Group-1396.png" alt="" width="100%" />
+    <img src="../images/projects/websites/marwear-canada/Group-1523.png" alt="" width="100%" />
     <div class="container">
       <div class="col">
         <p>CLIENT</p>
-        <p>Route 1</p>
+        <p>MarWear Canada</p>
       </div>
       <div class="col">
         <p>LOCATION</p>
-        <p>Keflavik, Iceland</p>
+        <p>East Coast, Canada</p>
       </div>
       <div class="col">
         <p>CATEGORY</p>
@@ -78,42 +78,48 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <img src="../images/projects/websites/route1/Group-1397.png" alt="" width="100%" />
-        </div>
-        <div class="col-md-10 m-auto">
-          <img src="../images/projects/websites/route1/Group-1399.png" alt="" width="100%" />
+          <img src="../images/projects/websites/marwear-canada/Group-1496.svg" alt="" width="100%" />
         </div>
         <div class="col-md-12">
-          <img src="../images/projects/websites/route1/Group-1357.png" alt="" width="100%" />
+          <img src="../images/projects/websites/marwear-canada/Group-1497.png" alt="" width="100%" />
+        </div>
+        <div class="col-md-12">
+          <img src="../images/projects/websites/marwear-canada/Group-1604.png" alt="" width="100%" />
+        </div>
+        <div class="col-md-12">
+          <img src="../images/projects/websites/marwear-canada/Group-1499.png" alt="" width="100%" />
+        </div>
+        <div class="col-md-12">
+          <img src="../images/projects/websites/marwear-canada/Group-1500.png" alt="" width="100%" />
         </div>
       </div>
     </div>
-    <img src="../images/projects/websites/route1/Group-1400.svg" alt="" width="100%" />
+    <img src="../images/projects/websites/marwear-canada/Group-1501.png" alt="" width="100%" />
     <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <img src="../images/projects/websites/route1/Group-1394.png" alt="" width="100%" />
-        </div>
-        <div class="col-md-12">
-          <img src="../images/projects/websites/route1/Group-1395.png" alt="" width="100%" />
+      <div class="row align-items-center">
+        <div class="col-md-6">
+         <img src="../images/projects/websites/marwear-canada/marwear-animation.gif" alt="" width="100%" />
         </div>
         <div class="col-md-5 ml-auto">
-          <img src="../images/projects/websites/route1/Group-1420.png" alt="" width="100%" />
+          <h2 style="font-size:44px;font-weight:600;color:#333;margin-bottom:30px;">About Mar Wear</h2>
+          <p style="font-size: 16px; color:#333;">We strive to create a safe and comfortable working environment for our employees and strive for Mar Wear to be renowned for good staff who possess extensive experience and knowledge of our products and activities. <br /><br />At Mar Wear, you can also access a wide range of high-quality consumer goods at affordable prices to help you manage your business and customer service.</p>
         </div>
-        <div class="col-md-3 offset-md-1 mr-auto">
-          <img src="../images/projects/websites/route1/Group-1439.png" alt="" width="100%" />
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <img src="../images/projects/websites/marwear-canada/Group-1471.png" alt="" width="100%" />
         </div>
       </div>
     </div>
   </section>
 
   <section id="project-nextProject">
-    <div class="container">
+  <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
           <a href="/projects/icrs.php">NEXT PROJECT</a>
         </div>
-        <div class="col-md-6 m-auto text-center" >
+        <div class="col-md-6 m-auto" >
             <img src="../images/projects/websites/route1/Group-1401.svg" alt="" />
         </div>
       </div>

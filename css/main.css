@@ -1285,8 +1285,13 @@ footer a {
   font-weight: 900;
   line-height: 22px;
   width: 50%;
+  color: #fff;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
+}
+
+#portfolio .project-box.white .project-title {
+  color: #333;
 }
 
 #portfolio .project-box .project-image {
@@ -1375,11 +1380,3 @@ footer a {
   z-index: 0; /* Set z-index to 0 as it will be on a layer below the contact form */
 }
 
-
-/* Projects */
-
-.single-project .site-logo img,
-.hamburger-title {
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
-}

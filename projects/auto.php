@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Route1 Project - Jungo Digital Solutions</title>
+  <title>Auto Project - Jungo Digital Solutions</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="../images/jungo-favikon-04.png" type="image/x-icon">
 
@@ -23,11 +23,11 @@
 
   <?php include "../include/header.php" ?>
   <section id="project-banner">
-    <img src="../images/projects/websites/route1/Group-1396.png" alt="" width="100%" />
+    <img src="../images/projects/websites/auto/Group-1491.png" alt="" width="100%" />
     <div class="container">
       <div class="col">
         <p>CLIENT</p>
-        <p>Route 1</p>
+        <p>Auto Car Rental</p>
       </div>
       <div class="col">
         <p>LOCATION</p>
@@ -78,42 +78,30 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <img src="../images/projects/websites/route1/Group-1397.png" alt="" width="100%" />
-        </div>
-        <div class="col-md-10 m-auto">
-          <img src="../images/projects/websites/route1/Group-1399.png" alt="" width="100%" />
-        </div>
-        <div class="col-md-12">
-          <img src="../images/projects/websites/route1/Group-1357.png" alt="" width="100%" />
+          <img src="../images/projects/websites/auto/banner.png" alt="" width="100%" />
         </div>
       </div>
     </div>
-    <img src="../images/projects/websites/route1/Group-1400.svg" alt="" width="100%" />
+    <img src="../images/projects/websites/auto/Group-1492.png" alt="" width="100%" />
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <img src="../images/projects/websites/route1/Group-1394.png" alt="" width="100%" />
+          <img src="../images/projects/websites/auto/Group-493.png" alt="" width="100%" />
         </div>
         <div class="col-md-12">
-          <img src="../images/projects/websites/route1/Group-1395.png" alt="" width="100%" />
-        </div>
-        <div class="col-md-5 ml-auto">
-          <img src="../images/projects/websites/route1/Group-1420.png" alt="" width="100%" />
-        </div>
-        <div class="col-md-3 offset-md-1 mr-auto">
-          <img src="../images/projects/websites/route1/Group-1439.png" alt="" width="100%" />
+          <img src="../images/projects/websites/auto/Group-1495.png" alt="" width="100%" />
         </div>
       </div>
     </div>
   </section>
 
   <section id="project-nextProject">
-    <div class="container">
+  <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
           <a href="/projects/icrs.php">NEXT PROJECT</a>
         </div>
-        <div class="col-md-6 m-auto text-center" >
+        <div class="col-md-6 m-auto" >
             <img src="../images/projects/websites/route1/Group-1401.svg" alt="" />
         </div>
       </div>
